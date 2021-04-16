@@ -1,13 +1,13 @@
-const { getAll } = require('../data')
+const { add } = require('../data/product')
 
 module.exports = () => ({
     path: '/products',
-    method: 'GET',
+    method: 'POST',
     response: async(req, res, querystring, data, params) => {
-        const result = await getAll()
+        const result = await add(data)
         return {
-            data: result.data,
-            status: 200,
+            data: result,
+            status: 201,
         }
     },
     delay: 0,

@@ -1,12 +1,12 @@
-const { getAll } = require('../data')
+const { getAll } = require('../data/product')
 
 module.exports = () => ({
-    path: '/products/:id',
+    path: '/products',
     method: 'GET',
     response: async(req, res, querystring, data, params) => {
         const result = await getAll()
         return {
-            data: result.data.find(e => e.id == params[0]),
+            data: result,
             status: 200,
         }
     },
