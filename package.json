@@ -10,6 +10,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@jarvis-catalyst/mockserver": "^1.0.14"
+        "@jarvis-catalyst/mockserver": "^1.0.14",
+        "jsonwebtoken": "^8.5.1"
     }
 }
