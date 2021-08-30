@@ -12,5 +12,8 @@
     "dependencies": {
         "@jarvis-catalyst/mockserver": "^1.0.14",
         "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
     }
 }

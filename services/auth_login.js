@@ -19,7 +19,7 @@ module.exports = () => ({
         if (r.password === data.password) {
             return {
                 data: {
-                    jwt: generateAccessToken({ username: data.username }),
+                    jwt: generateAccessToken({ username: data.username }),saludos:"hola", saludos:"hola"
                 },
                 status: 200,
             }

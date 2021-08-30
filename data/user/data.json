@@ -12,6 +12,12 @@
             "username": "claudio.rojas",
             "email": "claudio.r@gmail.com",
             "password": "123.123"
+        },
+        {
+            "name": "Alexander",
+            "username": "alex",
+            "email": "alex@gmail.com",
+            "password": "123"
         }
     ]
 }
